@@ -1,0 +1,16 @@
+package com.ferramenta.lez00_gestore_clienti;
+
+public class Bottiglia {
+
+	private String marca;
+	private String contenuto;
+	private String colore;
+	private float capacita;
+	
+	public void setCapacita(float varCapa) {
+		if(varCapa > 0 && varCapa < 999) {
+			capacita = varCapa;
+		}
+	}
+		
+}

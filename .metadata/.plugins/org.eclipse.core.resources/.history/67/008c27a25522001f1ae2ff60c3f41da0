@@ -1,0 +1,10 @@
+package com.ferramenta.lez00_gestore_clienti;
+
+public class Bottiglia {
+
+	String marca;
+	String contenuto;
+	String colore;
+	float capacita;
+	
+}

@@ -1,0 +1,20 @@
+package com.ferramenta.lez00_gestore_clienti;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	int a = 5;
+    	
+    	int b;
+    	b = 10;
+    	
+    	b = 20;
+    	
+    	System.out.println(b);
+    }
+}

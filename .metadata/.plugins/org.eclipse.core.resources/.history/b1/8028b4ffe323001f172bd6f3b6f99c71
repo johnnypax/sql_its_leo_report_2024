@@ -1,0 +1,29 @@
+package it.leonardo.lez02_connessione;
+
+import com.mysql.cj.jdbc.MysqlDataSource;
+
+/**
+1. H: Le stringhe sono visibili anche nei file .class ovvero i compilati
+2. H: La passsword è troppo corta
+3. H: Non rispetta la regola del "least priviledge"
+4. M: Scoraggiare la visualizzazione esterna delle Primary Key
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	try {
+    		MysqlDataSource ds = new MysqlDataSource();
+        	ds.setUser("root");
+        	ds.setPassword("toor");
+        	ds.setServerName("127.0.0.1");
+        	ds.setPort(3306);
+        	ds.setDatabaseName("lez_recap_03_rubrica");
+        	ds.setUseSSL(false);
+        	ds.setAllowPublicKeyRetrieval(true);
+    	} catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
+    	
+    }
+}

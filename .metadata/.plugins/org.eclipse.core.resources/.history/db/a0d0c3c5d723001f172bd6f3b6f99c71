@@ -1,0 +1,15 @@
+package it.leonardo.lez02_connessione;
+
+import com.mysql.cj.jdbc.MysqlDataSource;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	MysqlDataSource ds = new MysqlDataSource();
+    }
+}
