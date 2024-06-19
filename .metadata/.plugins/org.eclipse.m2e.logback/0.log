@@ -1238,3 +1238,5 @@ org.eclipse.core.runtime.CoreException: Launch configuration App_Corretta refere
 2024-06-19 09:45:36,187 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ACADEMY\eclipse-workspace-cyber-leo\lez04_blog\src\test\resources
 2024-06-19 09:45:41,225 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ACADEMY\eclipse-workspace-cyber-leo\lez04_blog\src\main\resources
 2024-06-19 09:45:41,227 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ACADEMY\eclipse-workspace-cyber-leo\lez04_blog\src\test\resources
+2024-06-19 09:45:50,498 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ACADEMY\eclipse-workspace-cyber-leo\lez04_blog\src\main\resources
+2024-06-19 09:45:50,501 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ACADEMY\eclipse-workspace-cyber-leo\lez04_blog\src\test\resources
