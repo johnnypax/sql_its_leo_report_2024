@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>it.leonardo</groupId>
-  <artifactId>lez03_report_prova</artifactId>
+  <artifactId>lez04_blog</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>lez03_report_prova</name>
+  <name>lez04_blog</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -25,13 +25,14 @@
 	<dependency>
 	    <groupId>mysql</groupId>
 	    <artifactId>mysql-connector-java</artifactId>
-	    <version>8.0.25</version>
+	    <version>5.1.40</version>
 	</dependency>
 	
 	<dependency>
-	    <groupId>log4j</groupId>
-	    <artifactId>log4j</artifactId>
-	    <version>1.2.9</version>
+	    <groupId>org.testng</groupId>
+	    <artifactId>testng</artifactId>
+	    <version>7.0.0</version>
+	    <scope>test</scope>
 	</dependency>
 
 
