@@ -26,6 +26,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="it.leonardo.lez07_prenotazioni"/>
 			<item value="it.leonardo.lez06_simple_connection"/>
 			<item value="it.leonardo.lez05_spring_core"/>
 			<item value="it.leonardo.lez04_blog"/>
@@ -41,6 +42,7 @@
 			<item value="com.ferramenta"/>
 		</list>
 		<list key="artifactId">
+			<item value="lez07_prenotazioni"/>
 			<item value="lez06_simple_connection"/>
 			<item value="lez05_spring_core"/>
 			<item value="lez04_blog"/>
