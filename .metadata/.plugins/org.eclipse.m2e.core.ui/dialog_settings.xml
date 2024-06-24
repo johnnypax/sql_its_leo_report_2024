@@ -26,6 +26,9 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="it.leonardo.lez05_spring_core"/>
+			<item value="it.leonardo.lez04_blog"/>
+			<item value="it.leonardo.blog"/>
 			<item value="it.leonardo.lez03_report_prova"/>
 			<item value="it.leonardo.lez03_gestionale"/>
 			<item value="it.leonardo.lez02_connessione"/>
@@ -37,6 +40,9 @@
 			<item value="com.ferramenta"/>
 		</list>
 		<list key="artifactId">
+			<item value="lez05_spring_core"/>
+			<item value="lez04_blog"/>
+			<item value="blog"/>
 			<item value="lez03_report_prova"/>
 			<item value="lez03_gestionale"/>
 			<item value="lez02_connessione"/>
@@ -80,6 +86,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\ACADEMY\Desktop\lez03_report_prova"/>
 			<item value="C:\Users\ACADEMY\eclipse-workspace-cyber-leo"/>
 		</list>
 		<list key="projectNameTemplate">
