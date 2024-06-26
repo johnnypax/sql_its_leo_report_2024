@@ -8,8 +8,8 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class DatabaseManager {
-	private static final String URL = "jdbc:h2:~/test";
-    private static final String USER = "sa";
+	private static final String URL = "jdbc:10.1.1.1:3600/test";
+    private static final String USER = "root";
     private static final String PASSWORD = "";
     private Connection connection;
 
