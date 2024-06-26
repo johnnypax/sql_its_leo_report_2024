@@ -8,11 +8,11 @@ public class App
 {
 	public static void main(String[] args) {
         LoggerExample loggerExample = new LoggerExample();
-        loggerExample.logMessage("Hello, OWASP Dependency Checker with log4j and MySQL!");
+        loggerExample.logMessage("Hello Giovanni");
 
         DatabaseManager dbManager = new DatabaseManager();
         dbManager.connect();
-        dbManager.insertData("John", "Doe");
+        dbManager.insertData("Giovanni", "Pace");
         dbManager.getData();
         dbManager.closeConnection();
     }
